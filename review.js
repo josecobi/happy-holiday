@@ -110,7 +110,7 @@ console.log(angry.toLowerCase());
 
 // toUpperCase()
 const jahlunSaidToPutSomeRespectToHisName = "jahlun"
-
+console.log(jahlunSaidToPutSomeRespectToHisName.toUpperCase());
 // substring()
 // on the chopping block...
 

@@ -113,7 +113,7 @@ const jahlunSaidToPutSomeRespectToHisName = "jahlun"
 console.log(jahlunSaidToPutSomeRespectToHisName.toUpperCase());
 // substring()
 // on the chopping block...
-
+console.log(jahlunSaidToPutSomeRespectToHisName.substring(0, 3));
 // Returns "ell"
 const basicGreeting = "Hello World"
 

@@ -120,9 +120,11 @@ console.log(basicGreeting.substring(1, 3));
 
 // Returns "JavaScript"
 const ohReally = "JavaScript Substring"
+console.log(ohReally.substring(0, 9));
 
 // Returns aol.com
 const aslDays = "xXteoWuzHereXx@aol.com"
+console.log(aslDays.substring(15));
 
 // trim()
 // If only I can use this for my love handles...

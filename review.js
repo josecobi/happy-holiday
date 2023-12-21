@@ -92,7 +92,7 @@ const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
 console.log(joshIsLookingForWifey.search("wifey"));
 // I guess we can share this pizza sentence. Use slice() to return the other half of pizza.
 const pizzaSentence = "pizza, other half of pizza"
-
+console.log(pizzaSentence.slice(pizzaSentence.length / 2));
 // Now using the pizza sentence, return only pizza (before the comma)
 
 // Okay, but who decided to go to this expensive restaurant? Yaz, Poornima, and Leshawn decided to split() the bill. Return an array separating Yaz, Poornima, and Leshawn.

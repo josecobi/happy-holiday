@@ -89,7 +89,7 @@ const replaceGokuWithVegeta = "For my DBZ fans, we all know Goku is the best!"
 console.log(replaceGokuWithVegeta.replace('Goku', 'Vegeta'));
 // Josh has been forgetful lately. Let's help Josh by using search(), and find their right 'wifey'. 
 const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
-
+console.log(joshIsLookingForWifey.search("wifey"));
 // I guess we can share this pizza sentence. Use slice() to return the other half of pizza.
 const pizzaSentence = "pizza, other half of pizza"
 

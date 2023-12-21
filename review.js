@@ -68,7 +68,7 @@ console.log(concat);
 let string = "hello"
 console.log(string.startsWith("h"));
 // Now use any variable with endsWith() and return false
-
+console.log(string.endsWith("a"));
 // Finish the following sentence. Use includes() and return true.
 const ozgur = 'Once upon a time Ozgur looked up at the Moon, '
 

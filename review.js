@@ -95,15 +95,17 @@ const pizzaSentence = "pizza, other half of pizza"
 const indexOfComma = pizzaSentence.indexOf(",");
 console.log(pizzaSentence.slice(indexOfComma));
 // Now using the pizza sentence, return only pizza (before the comma)
-
 console.log(pizzaSentence.slice(0, indexOfComma));
 // Okay, but who decided to go to this expensive restaurant? Yaz, Poornima, and Leshawn decided to split() the bill. Return an array separating Yaz, Poornima, and Leshawn.
 const splitTheBill = "Yaz, Poornima, and Leshawn"
+console.log(splitTheBill.split(", "));
 
 // OH NO! The alien invaders from earlier were so against bill splitting so they decided to split() Yaz, Poornima, and Leshawn into pieces. Using splitTheBill, return an array separating all three by characters.
+console.log(splitTheBill.split(""));
 
 // Use this toLowerCase()
 const angry = "LOWER YOUR VOICE DOWN IF YOU AIN'T PAYING MY BILLS."
+console.log(angry.toLowerCase());
 // Tuan was angry today. Create a string with words that Tuan would yell out. Now lowercase it, to tell Tuan to chill out. 
 
 // toUpperCase()

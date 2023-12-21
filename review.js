@@ -75,10 +75,11 @@ console.log(ozgur.includes(" "));
 
 // Help! I'm looking for my cow! Using indexOf() help Josh find his cow. What's the index of cow?
 const joshHadALittleLambOopsCow = "Josh lives in a farm. Josh was overwhelmed with coding. Josh is stressed out. Josh fed the chickens this morning. He watered his plants. He took his cow Betsy on a walk. Josh went home without Betsy. Josh went to bed that night, and realized he went home alone."
-
+console.log(joshHadALittleLambOopsCow.indexOf("cow"));
 // Oh no! The alien doppelgangers are here. Let's use our laserbeam lastIndexOf() to shoot down the last alien named Vanessa in the String Universe.
 
 const vanessa = "I am the Alpha Vanessa. I am the Omega Vanessa. We do not come in peace."
+console.log(vanessa.lastIndexOf("Vanessa"));
 
 // Can we use length for strings? I don't know, you tell me.
 const noWeCantTeo = "but did you try it out though?"

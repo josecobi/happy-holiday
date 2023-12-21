@@ -83,10 +83,10 @@ console.log(vanessa.lastIndexOf("Vanessa"));
 
 // Can we use length for strings? I don't know, you tell me.
 const noWeCantTeo = "but did you try it out though?"
-
+console.log(noWeCantTeo.length);
 // If only it was this easy to replace() my ex. Totally not joking, LOL. JK
 const replaceGokuWithVegeta = "For my DBZ fans, we all know Goku is the best!"
-
+console.log(replaceGokuWithVegeta.replace('Goku', 'Vegeta'));
 // Josh has been forgetful lately. Let's help Josh by using search(), and find their right 'wifey'. 
 const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
 

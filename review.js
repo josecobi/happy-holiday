@@ -116,6 +116,7 @@ console.log(jahlunSaidToPutSomeRespectToHisName.toUpperCase());
 console.log(jahlunSaidToPutSomeRespectToHisName.substring(0, 3));
 // Returns "ell"
 const basicGreeting = "Hello World"
+console.log(basicGreeting.substring(1, 3));
 
 // Returns "JavaScript"
 const ohReally = "JavaScript Substring"

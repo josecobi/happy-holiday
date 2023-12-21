@@ -129,7 +129,8 @@ console.log(aslDays.substring(15));
 // trim()
 // If only I can use this for my love handles...
 // Create a variable with a string value with some extra loving on both sides.
-
+const stringWithLoveHandles = "    Machego cheese, goat cheese, roquefort    ";
+console.log(stringWithLoveHandles.trim());
 // =================================================
 //                     BOOLEAN
 // =================================================

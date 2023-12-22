@@ -245,6 +245,8 @@ fruits.shift('apple');
 console.log(fruits);
 
 // Add mango at the beginning of the array
+fruits.unshift('mango');
+console.log(fruits);
 
 // Add lemon, and grapefruit between mango and banana
 

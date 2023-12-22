@@ -158,15 +158,19 @@ console.log(c > b > a != d)
 
 // Ken has a headache today and he said the room has been spinning like crazy. Make Ken's room spin 10 times using FOR LOOP. Make him print a sentence.
 for (let i = 0; i < 10; i++){
-  console.log("Ken, print a sentence for each spin");
+  
 }
-
+console.log(`Ken: I print a sentence`);
 // Harry said that was so mean of Teo to do Ken dirty like that. Make Teo's vision spin 20 times FOR LOOP.
-for (let j = 10; j < 20; j++){
-  console.log("Teo, print sentence for each spin");
+for (let j = 0; j < 20; j++){
 }
+console.log(`Teo: My vision spinned 20 times`);
 // But wait! Lisa said, while Teo is spinning 20 times. Let's make him say "I'm sorry". Print I'm sorry 20 times using a WHILE loop.
-
+let j = 0;
+  while( j < 20){
+  console.log("Teo: I'm sorry");
+  j++;
+}
 // For the next three, look for the syntax of FOR IN and FOR OF loop. Very easy to understand syntax, and very clean :) 
 
 // To The Left! To The Left! Everything I want in the console to the left. Print thing1, thing2, thing 3 using (FOR IN LOOP)

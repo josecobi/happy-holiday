@@ -180,11 +180,18 @@ const whateverQueenBeySaid = {
   thing3: 'gaming console'
 }
 
+for(thing in whateverQueenBeySaid){
+  console.log(thing);
+}
+
 // Using (FOR IN LOOP), print the indexes of the array.
 const lana = ['l', 'a', 'n', 'a']
 
+for(index in lana){
+  console.log(index);
+}
 // USE (FOR OF LOOP)!
-const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
+
 
 // Look into forEach() loop, it accepts a callback aka a function inside a function. 
 // Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. 

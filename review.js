@@ -144,22 +144,27 @@ const b = 10;
 const c = 15;
 const d = "Keke"
 
-// console.log(a _ b)
-// console.log(c _ b)
-// console.log(d _ d)
-// console.log(d _ a)
-// console.log(a _ 15)
-// console.log(a _ b _ c)
-// console.log(c _ b _ a _ d)
+console.log(a < b)
+console.log(c > b)
+console.log(d === d)
+console.log(d != a)
+console.log(a < 15)
+console.log(a < b < c)
+console.log(c > b > a != d)
 
 // =================================================
 //                     LOOPS
 // =================================================
 
 // Ken has a headache today and he said the room has been spinning like crazy. Make Ken's room spin 10 times using FOR LOOP. Make him print a sentence.
+for (let i = 0; i < 10; i++){
+  console.log("Ken, print a sentence for each spin");
+}
 
 // Harry said that was so mean of Teo to do Ken dirty like that. Make Teo's vision spin 20 times FOR LOOP.
-
+for (let j = 10; j < 20; j++){
+  console.log("Teo, print sentence for each spin");
+}
 // But wait! Lisa said, while Teo is spinning 20 times. Let's make him say "I'm sorry". Print I'm sorry 20 times using a WHILE loop.
 
 // For the next three, look for the syntax of FOR IN and FOR OF loop. Very easy to understand syntax, and very clean :) 

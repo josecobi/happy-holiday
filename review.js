@@ -191,12 +191,19 @@ for(index in lana){
   console.log(index);
 }
 // USE (FOR OF LOOP)!
-
+const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
+for(word of tia){
+  console.log(word)
+}
 
 // Look into forEach() loop, it accepts a callback aka a function inside a function. 
 // Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. 
 const perscholas = ['Amira', 'Arely', 'Jonathan']
 
+perscholas.forEach(person => {
+    let str = "PS"
+    console.log(person + str);
+});
 // =================================================
 //                     ARRAYS
 // =================================================

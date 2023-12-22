@@ -224,12 +224,17 @@ perscholas.forEach(person => {
 const fruits = ['apple', 'banana', 'orange']
 
 // Print banana
-
+console.log(fruits[1]);
 // Let's turn it up a notch. I won't tell you what array methods to use. 
 
 // Join all the elements of the array into a string separated by a space.
-
+let stringFruits = "";
+for( let i = 0; i < fruits.length; i++){
+    stringFruits += fruits[i] + " ";
+}
+console.log(stringFruits);
 // Remove orange
+
 
 // Add strawberry, kiwi, and grapes at the end
 

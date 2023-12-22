@@ -234,7 +234,8 @@ for( let i = 0; i < fruits.length; i++){
 }
 console.log(stringFruits);
 // Remove orange
-
+fruits.pop('orange');
+console.log(fruits);
 
 // Add strawberry, kiwi, and grapes at the end
 

@@ -238,7 +238,8 @@ fruits.pop('orange');
 console.log(fruits);
 
 // Add strawberry, kiwi, and grapes at the end
-
+fruits.push("strawberry", "kiwi", "grapes");
+console.log(fruits);
 // Remove apple
 
 // Add mango at the beginning of the array

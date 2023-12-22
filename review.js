@@ -241,6 +241,8 @@ console.log(fruits);
 fruits.push("strawberry", "kiwi", "grapes");
 console.log(fruits);
 // Remove apple
+fruits.shift('apple');
+console.log(fruits);
 
 // Add mango at the beginning of the array
 

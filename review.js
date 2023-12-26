@@ -259,13 +259,16 @@ console.log(fruits);
 // Create a new array called exoticFruits. Add 3 exotic fruits inside of this array. Create a new variable and assign it with the value of concatinating fruits array and exoticFruits array.
 let exoticFruits = ["pineapple", "cononut", "guaba"]
 console.log(exoticFruits.join());
+console.log(exoticFruits);
 // Print the last two exotic fruits without altering the newly concatenated array.
+console.log(exoticFruits.slice(-2));
 
 // Monalissa said she needs help re-organizing her items in alphabetical order.
 const monalissaIsMessy = ["pencil", "paper", "notebook", "computer"]
+console.log(monalissaIsMessy.sort());
 
 // Kevin accidentally stepped into the mirror world and needs help reversing his words.
-const mirrorMirrorOnTheWall = ["all", "them", "of", "greatest", "the", "is", "who"]
+const mirrorMirrorOnTheWall = ["all", "them", "of", "greatest", "the", "is", "who"];
 
 // ===== HIGHER ORDER METHODS =====
 // Rafael said he''s trying to stop cursing so much, and he wants to start with his text messages. Help him write code to eliminate the badword in his sentences. Must return a string sentence. Must use filter(). :) 

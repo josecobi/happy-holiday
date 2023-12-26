@@ -282,7 +282,13 @@ return sentenceBadwordRemoved;
 
 console.log(eliminateBadword());
 // Man math is hard. Let's make our computer do it for us. Use reduce() to find the total SUM of the numbers in numbersToAddUp
+const numbersToAddUp = [99, 5677, 232, 84, 2, 231];
 
+const totalSum = numbersToAddUp.reduce((total, number) => {
+  return total + number;
+}, 0);
+
+console.log(totalSum);
 // ===== SPREAD OPERATOR ===== 
 
 // Create a variable and assign a value of a copied array using the spread operator

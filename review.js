@@ -269,7 +269,7 @@ console.log(monalissaIsMessy.sort());
 
 // Kevin accidentally stepped into the mirror world and needs help reversing his words.
 const mirrorMirrorOnTheWall = ["all", "them", "of", "greatest", "the", "is", "who"];
-
+console.log(mirrorMirrorOnTheWall.reverse());
 // ===== HIGHER ORDER METHODS =====
 // Rafael said he''s trying to stop cursing so much, and he wants to start with his text messages. Help him write code to eliminate the badword in his sentences. Must return a string sentence. Must use filter(). :) 
 const RafaelNoBadWords = "I am so tired of this badword food. I do not want this badword badword food."

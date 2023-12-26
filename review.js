@@ -273,9 +273,15 @@ console.log(mirrorMirrorOnTheWall.reverse());
 // ===== HIGHER ORDER METHODS =====
 // Rafael said he''s trying to stop cursing so much, and he wants to start with his text messages. Help him write code to eliminate the badword in his sentences. Must return a string sentence. Must use filter(). :) 
 const RafaelNoBadWords = "I am so tired of this badword food. I do not want this badword badword food."
+function eliminateBadword(){
+let arrayNobadwords = RafaelNoBadWords.split(' ');
+let badWordRemoved = arrayNobadwords.filter(word => word !== "badword");
+let sentenceBadwordRemoved  = badWordRemoved.join(" ");
+return sentenceBadwordRemoved;
+}
 
-// Man math is hard. Let's make our computer do it for us. Use reduce() to find the total of the numbers in numbersToAddUp
-const numbersToAddUp = [99, 5677, 232, 84, 2, 231]
+console.log(eliminateBadword());
+// Man math is hard. Let's make our computer do it for us. Use reduce() to find the total SUM of the numbers in numbersToAddUp
 
 // ===== SPREAD OPERATOR ===== 
 

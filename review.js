@@ -249,11 +249,16 @@ fruits.unshift('mango');
 console.log(fruits);
 
 // Add lemon, and grapefruit between mango and banana
+fruits.splice(1, 0, "lemon" )
+console.log(fruits);
 
 // Remove banana and strawberry
+fruits.splice(fruits.indexOf("banana"), 2)
+console.log(fruits);
 
 // Create a new array called exoticFruits. Add 3 exotic fruits inside of this array. Create a new variable and assign it with the value of concatinating fruits array and exoticFruits array.
-
+let exoticFruits = ["pineapple", "cononut", "guaba"]
+console.log(exoticFruits.join());
 // Print the last two exotic fruits without altering the newly concatenated array.
 
 // Monalissa said she needs help re-organizing her items in alphabetical order.

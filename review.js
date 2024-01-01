@@ -332,14 +332,25 @@ const donutShop =[
 ]
 
 // Anthony wants applecrumble. Print please!
+
+console.log(donutShop[1][0][1]);
 // Tosi wants ihatethis. :) Print!
 
+console.log(donutShop[2][0][0][1]);
 // =================================================
 //                     IF/ELSE
 // =================================================
 
 // Teo is a person. I would hope so...
 // Check if Teo is a person. If true, print 'Teo is a person!' if not then print 'Teo is not a person!'
+const teoIsAPerson = true;
+if(teoIsAPerson){
+  console.log('Teo is a person!');
+}
+else {
+  console.log('Teo is not a person!');
+}
+
 // If Teo is a person, check to see if he is a male or a female. If male, print 'You got it right!' if not then print 'Wrong. Teo is going to remove you from the class.'.
 // If male, check to see if Teo is hungry. If Teo is 'hungry' then print 'Let's buy Teo some tacos!'. If Teo is 'not hungry' then print 'He doesn't need to eat.'. Anything else, print 'If Teo is not hungry, am I hungry?'
 

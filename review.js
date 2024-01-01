@@ -477,7 +477,7 @@ console.log(human);
 console.log(human.name);
 
 // Access the age using square brackets
-
+console.log(human['age']);
 // Use object destructuring to access location
 
 // ACCESS Granted

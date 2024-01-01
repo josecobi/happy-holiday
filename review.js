@@ -442,7 +442,13 @@ function fightClub(name){
 console.log(fightClub('Devin'));
 
 // Create a function called hello() that prints 'Hello'. Return an anonymous function inside hello() and have it print 'Goodbye'. Invoke your hello function in some way to see Hello and Goodbye in the console.
-
+function hello() {
+  const goodbye = function(){
+    return('Goodbye');
+  }
+  console.log(`Hello  ${goodbye()}`);
+  }
+hello();
 // Create a function expression with your first name as the variable and then print your first and last name
 
 // Create an arrow function that accepts a number and have it return that number doubled

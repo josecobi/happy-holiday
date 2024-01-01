@@ -504,7 +504,8 @@ const bulbasaur = {
 const overgrowAbility = bulbasaur.abilities[0].ability;
 console.log(overgrowAbility);
 // Print cut
-
+const cutEl = bulbasaur.moves[2];
+console.log(cutEl);
 // Print Bulbahhhh!!!!!
 
 

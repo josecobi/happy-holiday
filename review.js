@@ -458,7 +458,8 @@ const jose = function(lastName) {
 // Call the function with your last name
 jose("Lopez");
 // Create an arrow function that accepts a number and have it return that number doubled
-
+const  doubledNumber = (number) => number * 2;
+console.log(doubledNumber(2));
 // =================================================
 //                     OBJECTS
 // =================================================

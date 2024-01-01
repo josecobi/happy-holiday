@@ -378,7 +378,9 @@ else {
 }
 
 // Create a if/else ternary to check if Gustavo is the coolest. If coolest, print 'You got that right!', else print 'James wants to argue. He says he's the best!'
+const gustavoIsTheCoolest = false;
 
+(gustavoIsTheCoolest ? console.log(`You got that right!`) : console.log(`James wants to argue. He says he's the best!`));
 // =================================================
 //                     FUNCTIONS
 // =================================================
@@ -386,6 +388,7 @@ else {
 // Don't forget to call your functions :)
 
 // Create a function called sayGreeting and PRINT 'Hello, ma'amsir!'
+
 
 // Create a function that takes a string as a parameter. PRINT 'This is my (STRING)'. Please replace the (STRING) with the parameter. Don't play with me haha.
 

@@ -292,11 +292,18 @@ console.log(totalSum);
 // ===== SPREAD OPERATOR ===== 
 
 // Create a variable and assign a value of a copied array using the spread operator
+let copyOfFruits = [...fruits];
+console.log(copyOfFruits);
 
 // Create two arrays with any elements and connect both of them using the spread operator. Save the connected arrays into a new variable.
+const array1 = [99, 5677, 232];
+const array2 = [84, 2, 231];
 
+const connectedArrays = [...array1, ...array2];
+console.log(connectedArrays);
 // Using the variable with the newly connected arrays, use spread operator to add something at the end.
-
+const arrayPlusSomethingAtTheEnd = [...connectedArrays, 5050];
+console.log(arrayPlusSomethingAtTheEnd);
 // Using the variable with the newly connected arrays, use spread operator to add something at the beginning.
 
 // ===== ACCESS =====

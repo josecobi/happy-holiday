@@ -388,11 +388,18 @@ const gustavoIsTheCoolest = false;
 // Don't forget to call your functions :)
 
 // Create a function called sayGreeting and PRINT 'Hello, ma'amsir!'
-
-
+function sayGreeting(){
+  console.log(`Hello, ma'amsir!`);
+}
+sayGreeting();
 // Create a function that takes a string as a parameter. PRINT 'This is my (STRING)'. Please replace the (STRING) with the parameter. Don't play with me haha.
+function myString(str){
+  console.log(`This is my ${str}`);
+}
 
+let myString2 = 'string';
 
+myString(myString2);
 // Create a function called add that takes in three number parameters. Create 3 variables and assign numerical values to them. Invoke your add() and pass in those three variables as arguments.
 
 // Create a function called fightClub() that accepts a name parameter.  If the name:

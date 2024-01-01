@@ -401,7 +401,19 @@ let myString2 = 'string';
 
 myString(myString2);
 // Create a function called add that takes in three number parameters. Create 3 variables and assign numerical values to them. Invoke your add() and pass in those three variables as arguments.
+function add(num1, num2, num3) {
+  return num1 + num2 + num3;
+}
 
+
+const numA = 5;
+const numB = 10;
+const numC = 15;
+
+
+const sum = add(numA, numB, numC);
+
+console.log(sum);
 // Create a function called fightClub() that accepts a name parameter.  If the name:
 // 'Teo' RETURN '1st rule: You do not talk about Fight Club.'
 // 'Manara' RETURN '2nd rule: YOU DO NOT TALK ABOUT FIGHT CLUB.'

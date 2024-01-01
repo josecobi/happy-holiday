@@ -450,7 +450,13 @@ function hello() {
   }
 hello();
 // Create a function expression with your first name as the variable and then print your first and last name
+const jose = function(lastName) {
+  const firstName = "Jose"; 
+  console.log(`${firstName} ${lastName}`);
+};
 
+// Call the function with your last name
+jose("Lopez");
 // Create an arrow function that accepts a number and have it return that number doubled
 
 // =================================================

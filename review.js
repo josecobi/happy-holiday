@@ -421,6 +421,26 @@ console.log(sum);
 // 'Devin' RETURN '4th rule: Only two guys to a fight.'
 // Anything else, RETURN 'No shirts
 
+function fightClub(name){
+    if(name === 'Teo'){
+      return ('1st rule: You do not talk about Fight Club.');
+    }
+    else if(name === 'Manara'){
+      return ('2nd rule: YOU DO NOT TALK ABOUT FIGHT CLUB.');
+    }
+    else if(name === 'Liv'){
+      return ('3rd rule: If someone yells "Stop!", goes limp, taps out, the fight is over.');
+    }
+    else if(name === 'Devin'){
+      return ('4th rule: Only two guys to a fight.');
+    }
+    else{
+      return ('No shirts');
+    }
+}
+
+console.log(fightClub('Devin'));
+
 // Create a function called hello() that prints 'Hello'. Return an anonymous function inside hello() and have it print 'Goodbye'. Invoke your hello function in some way to see Hello and Goodbye in the console.
 
 // Create a function expression with your first name as the variable and then print your first and last name

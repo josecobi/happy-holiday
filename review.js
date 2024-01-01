@@ -305,7 +305,8 @@ console.log(connectedArrays);
 const arrayPlusSomethingAtTheEnd = [...connectedArrays, 5050];
 console.log(arrayPlusSomethingAtTheEnd);
 // Using the variable with the newly connected arrays, use spread operator to add something at the beginning.
-
+const arrayPlusSomethingAtTheBeginning = [5050, ...connectedArrays];
+console.log(arrayPlusSomethingAtTheBeginning);
 // ===== ACCESS =====
 
 // Donut Shopping

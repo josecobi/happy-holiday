@@ -479,7 +479,8 @@ console.log(human.name);
 // Access the age using square brackets
 console.log(human['age']);
 // Use object destructuring to access location
-
+const { location } = human;
+console.log(location);
 // ACCESS Granted
 const bulbasaur = {
   name: 'Bulbasaur',

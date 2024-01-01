@@ -465,9 +465,13 @@ console.log(doubledNumber(2));
 // =================================================
 
 // Create an object and call it human. Add a name, age, and location property. Give the properties values.
+const human = {
+  name: "Tim",
+  age: 30,
+  location: 'Patagonia'
+}
 
-
-
+console.log(human);
 
 // Access the name using dot notation
 

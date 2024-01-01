@@ -474,7 +474,7 @@ const human = {
 console.log(human);
 
 // Access the name using dot notation
-
+console.log(human.name);
 
 // Access the age using square brackets
 

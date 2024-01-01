@@ -481,6 +481,8 @@ console.log(human['age']);
 // Use object destructuring to access location
 const { location } = human;
 console.log(location);
+
+
 // ACCESS Granted
 const bulbasaur = {
   name: 'Bulbasaur',
@@ -499,9 +501,9 @@ const bulbasaur = {
 }
 
 // Print overgrow
-
+const overgrowAbility = bulbasaur.abilities[0].ability;
+console.log(overgrowAbility);
 // Print cut
-
 
 // Print Bulbahhhh!!!!!
 

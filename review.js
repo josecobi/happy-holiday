@@ -521,5 +521,7 @@ for( property in bulbasaur){
 }
 console.log(bulbasaurProperties);
 // Print every single properties one by one in the console
-
+for( property in bulbasaur){
+  console.log(property);
+}
 // Print an array that contains every single values in bulbasaur

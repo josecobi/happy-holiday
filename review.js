@@ -512,7 +512,8 @@ bulbasaur.sound();
 bulbasaur.height = 7;
 console.log(bulbasaur.height);
 // Add a property called order and assign it a value of 1 using the square brackets. (Don't change bulbasaur object manually)
-
+bulbasaur['order'] = 1;
+console.log(bulbasaur.order);
 // Print an array that contains every single properties in bulbasaur
 
 // Print every single properties one by one in the console

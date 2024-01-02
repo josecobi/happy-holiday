@@ -515,7 +515,11 @@ console.log(bulbasaur.height);
 bulbasaur['order'] = 1;
 console.log(bulbasaur.order);
 // Print an array that contains every single properties in bulbasaur
-
+const bulbasaurProperties = [];
+for( property in bulbasaur){
+  bulbasaurProperties.push(property);
+}
+console.log(bulbasaurProperties);
 // Print every single properties one by one in the console
 
 // Print an array that contains every single values in bulbasaur

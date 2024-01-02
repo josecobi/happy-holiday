@@ -525,3 +525,8 @@ for( property in bulbasaur){
   console.log(property);
 }
 // Print an array that contains every single values in bulbasaur
+const arrayOfValuesBulbaSaur = [];
+for(property in bulbasaur){
+  arrayOfValuesBulbaSaur.push(bulbasaur[property]);
+}
+console.log(arrayOfValuesBulbaSaur);

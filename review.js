@@ -509,7 +509,8 @@ console.log(cutEl);
 // Print Bulbahhhh!!!!!
 bulbasaur.sound();
 // Add a height of 7 to bulbasaur using the dot notation. (Don't change bulbasaur object manually)
-
+bulbasaur.height = 7;
+console.log(bulbasaur.height);
 // Add a property called order and assign it a value of 1 using the square brackets. (Don't change bulbasaur object manually)
 
 // Print an array that contains every single properties in bulbasaur
